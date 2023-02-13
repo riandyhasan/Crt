@@ -4,7 +4,7 @@ import Coins from '@assets/images/jumbotron.png';
 import SecurityAssets from '@assets/images/security.png';
 // import TeleLogo from '@assets/images/tele-icon.png';
 import Modal from 'react-modal';
-import TelegramLoginButton, { TelegramUser } from '@v9v/ts-react-telegram-login';
+import TelegramLoginButton, { TelegramUser } from 'telegram-login-button';
 import { useState } from 'react';
 
 export default function Jumbotron() {
