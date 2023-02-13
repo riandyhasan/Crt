@@ -39,7 +39,7 @@ export default function Jumbotron() {
         <div className={styles.modal}>
           <h1>Register/Login</h1>
           <Image src={SecurityAssets} alt={'Modal Assets'} style={{ width: '70%', height: '70%' }} />
-          <TelegramLoginButton dataOnauth={handleTelegramResponse} botName='OdauBot' />
+          <TelegramLoginButton dataOnAuth={handleTelegramResponse} botName='lou_bookkeeper_dev_bot' />
         </div>
       </Modal>
       <div className={styles['jumbot-left']}>
